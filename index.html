@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Multimedia Webpage</title>
+</head>
+<body>
+
+  <!-- Section for Ordered List -->
+  <h2>Important Tasks</h2>
+  <ol type="I">
+    <li>Complete HTML5 assignment</li>
+    <li>Finish multimedia integration</li>
+    <li>Test form validation</li>
+  </ol>
+
+  <!-- Section for Image from Pexels -->
+  <h2>Beautiful Nature</h2>
+  <img src="https://images.pexels.com/photos/31477844/pexels-photo-31477844/free-photo-of-close-up-of-green-fern-with-water-droplets.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" alt="Green Fern" width="600">
+
+  <!-- Section for Table of Contacts -->
+  <h2>Contacts Table</h2>
+  <table border="1">
+    <tr>
+      <th>Name</th>
+      <th>Location</th>
+      <th>Mobile</th>
+      <th>Email</th>
+    </tr>
+    <tr>
+      <td>Leornard Omusula</td>
+      <td>Utawala</td>
+      <td>(254) 123-456789</td>
+      <td>lomusula@oultook.com</td>
+    </tr>
+    <tr>
+      <td>Jane Karanja</td>
+      <td>Maralal</td>
+      <td>(254) 123-456789</td>
+      <td>jkaranja@email.com</td>
+    </tr>
+    <tr>
+      <td>Emily Ouma</td>
+      <td>Kericho</td>
+      <td>(254) 123-456789</td>
+      <td>eouma@email.com</td>
+    </tr>
+  </table>
+
+  <!-- Section for Registration Form -->
+  <h2>Registration Form</h2>
+  <form action="#" method="POST">
+    <!-- Name Field -->
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" placeholder="Enter your full name" required><br><br>
+
+    <!-- Email Field -->
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+
+    <!-- Password Field -->
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" placeholder="Enter your password" required><br><br>
+
+    <!-- Date Field -->
+    <label for="dob">Date of Birth:</label>
+    <input type="date" id="dob" name="dob" required><br><br>
+
+    <!-- Dropdown (Country Selection) -->
+    <label for="country">Country:</label>
+    <select id="country" name="country" required>
+      <option value="usa">United States</option>
+      <option value="canada">Canada</option>
+      <option value="uk">United Kingdom</option>
+      <option value="australia">Australia</option>
+    </select><br><br>
+
+    <!-- Radio Buttons (Gender) -->
+    <label>Gender:</label>
+    <input type="radio" id="male" name="gender" value="male" required>
+    <label for="male">Male</label>
+    <input type="radio" id="female" name="gender" value="female" required>
+    <label for="female">Female</label><br><br>
+
+    <!-- Checkboxes (Preferences) -->
+    <label for="newsletter">Sign up for Newsletter:</label>
+    <input type="checkbox" id="newsletter" name="newsletter" value="yes"><br><br>
+
+    <!-- Submit Button -->
+    <button type="submit">Register</button>
+  </form>
+
+  <!-- Section for Audio Element -->
+  <h2>Listen to Some Tunes</h2>
+  <audio controls>
+    <source src="Burna Boy - Bundle By Bundle.mp3" type="audio/mp3">
+    Your browser does not support the audio element.
+  </audio>
+
+  <!-- Section for Video Element -->
+  <h2>Watch This Video</h2>
+  <video controls width="600">
+    <source src="Spongebob.mp4" type="video/mp4">
+    Your browser does not support the video element.
+  </video>
+
+</body>
+</html>
